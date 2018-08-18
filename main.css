@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
 }
+/* purple rgba(73, 11, 73, .9)
+orange rgba(204, 88, 16) */
 
 body {
   margin: 0;
@@ -8,7 +10,11 @@ body {
   text-align: center;
   font-size: 10px;
   line-height: 1.5 ;
-  background-color:  rgba(204, 88, 16);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),  url('./blue.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color:  rgb(73, 11, 73); */
 }
 
 /* Styles for the header, nave and hero */
@@ -19,7 +25,7 @@ nav {
   left: 0;
   right: 0;
   z-index: 10;
-  background-color: rgba(73, 11, 73, .9);
+  background-color: rgba(204, 88, 16, .9);
   color: rgb(255, 233, 219);
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -87,7 +93,7 @@ header {
   width: 200px;
 
   /* border */
-  border: 3px solid rgb(73, 11, 73);;
+  border: 3px solid rgb(73, 11, 73);
   border-radius: 20px;
 
   /* padding and margins */
@@ -100,7 +106,8 @@ header {
   font-size: 1.2em;
   color: rgb(255, 233, 219);
   text-decoration: none;
-  background-color: rgba(218, 103, 32, 0.966);
+  background-color: rgba(204, 88, 16);
+  -webkit-text-fill-color: rgba(204, 88, 16);
   text-shadow: none;
 
 }
@@ -121,10 +128,13 @@ p {
   color: rgb(255, 233, 219);
   font-size: 15px;
 }
-
+ p {
+   background-color: rgb(73, 11, 73);
+ }
 
 h3 {
-  margin: 25px 0 0 0;
+  margin: 0 0 25px 0;
+  background-color: rgb(73, 11, 73);
   padding: 10px;;
   font-family: 'Kalam', cursive;;
   font-size: 35px;
@@ -132,79 +142,17 @@ h3 {
 }
 
 h4 {
-  background-color: rgb(73, 11, 73);
-  margin: 0 0 10px 0;
+  background-color: rgb(204, 88, 16) ;
+  margin: 0 0 25px 0;
   padding: 10px;;
   font-family: 'Kalam', cursive;;
   font-size: 20px;
-  color: rgb(255, 233, 219);
+  color: rgb(220, 255, 219);
 }
 
 .smaller-font {
   font-size: 18px;
 }
-
-/* project section styles */
-
-/* .project-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-section .project {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.project-screenshot {
-  justify-content: center;
-}
-
-.project-screenshot {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.project-desc {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
-
-
-/* section {
-margin: 0 auto 0 auto;
-padding: 0;
-position: relative;
-}
-
-.project {
-  position: relative;
-  /* height:281px; */
-  /* width:250px; */
-  /* margin-right: auto;
-  margin-left: auto;
-}
-
-.project-desc { */
-  /* position: absolute;  */
-  /* width: 250px;
-  margin-right: auto;
-  margin-left: auto;
-} */ 
-
-
-/* section p{
-  margin-top: 0;
-  height: 127px;
-  /* width: 300px; */
-  /* font-family: 'Nanum+Gothic', sans-serif;
-  font-size: 10px;
-  
-} */
 
 footer {
   font-family: 'Kalam', cursive;;
@@ -212,63 +160,39 @@ footer {
   color:  rgb(21, 117, 104);
 }
 
- /* .projects-section {
-  margin: 0 50px 0 50px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),  url('./blue.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: 'Itim', cursive
-} */
-
-/* .project-screenshot {
-  margin-bottom: 10px;
-}  */
 
 /* Styles for larger screens */
-@media only screen and (min-width: 650px) {
+ @media only screen and (min-width: 650px) {
 
-  .hero h1 {
-    font-size: 5em;
-    font-family: 'Kaushan Script', cursive;
-    margin-bottom: 0;
+  h3 {
+    font-size: 45px;
   }
 
-
-h3 {
-  margin: 25px 0 0 0;
-  padding: 25px;;
-  font-family: 'Kalam', cursive;;
-  font-size: 2em;
-  color: rgb(255, 233, 219);
-}
-
-h4 {
-  margin: 0;
-  padding: 25px;;
-  font-family: 'Kalam', cursive;;
-  font-size: 1.5em;
-  color: rgb(255, 233, 219);
-}
+  h4, .smaller-font {
+    font-size: 30px;
+  }
 
   img {
+    width: 500px;
+  }
+
+  p {
     width: 650px;
-    height: auto;
+    font-size: 20px;
+    margin: 25px auto;
   }
 
-  .project {
-    position: relative;
-    height:281px;
-    width:450px;
-    margin:0 auto;
+  .hero h1 {
+    font-size: 80px
   }
 
-  .project-desc {
-    height:281px;
-    width:450px;;
-    margin:0, auto;
-    font-size: 25px;
+  .hero h2 {
+    font-size: 50px;
+  } 
+
+  .hero .button {
+    font-size: 20px;
   }
 
-
-
+ }
+  
