@@ -1,1 +1,1 @@
-The portfolio for Sonya Slegers
+A portfolio for Sonya Slegers
