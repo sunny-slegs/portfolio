@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Dosis|Itim|Kalam|Kaushan+Script|Lobster+Two|Markazi+Text|Nanum+Gothic|Noto+Sans" rel="stylesheet">
+  <link rel='icon' type='img/ico' href='favicon.ico'>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <title>Portfolio</title>
+</head>
+<body>
+  <nav role='custom-dropdown'>
+      <!-- <a class='right-most-nav-link' href='./about.html'> About</a> -->
+      <a class='nav-link' href='./'>Portfolio</a>
+    </nav>
+    <header role='banner'>
+      <div class='hero'>
+        <div class='hero-text'>
+          <h1>Sonya Slegers</h1>
+          <h2>Software Developer based in Austin, TX</h2>
+          <a href="mailto:sonjay08@gmail.com" class='button'>Contact Me</a>
+        </div> 
+    </header>    
+<main role='main'>
+      <div class='projects-section'>
+        <h3  >Check Out My Projects!</h3>
+        <section class='project'>
+          <h4>CSA Box Builder</h4>
+          
+            <div class='project-screenshot'>
+              <a href='http://csa-box-builder.herokuapp.com' target='_blank' role='button'>
+                <img src='./csa-app-screen-shot.png' alt='screen shot of app' width='300'>
+              </a>
+            </div>
+            <div class='project-desc'>
+              <p> 
+                Built with React/Redux for the front-end and Node/Express for the 
+                back-end. I used a MongoDB database and Mongoose as a modeling tool.
+                Click image to see the live version. <br>
+                 <span>
+                   username: dev<br>
+                   password: password88
+                 </span>
+              </p>
+            </div>
+        </section>
+        <section class='project'>
+          <h4 class='smaller-font'>Cartas Contra Español (Cards Against Spanish)</h4>
+          <div class='project-screenshot'>
+            <a href='https://sr-app-sj.herokuapp.com/dashboard' target='_blank' role='button' >
+              <img src='./spaced-rep-screen-shot.png' alt='screen shot of app' width='300'>
+            </a>
+          </div>
+          <div class='project-desc'>
+            <p>
+              Cartas Contra Espanol is a Spanish language learning app that uses spaced repetition
+              to help the user learn more efficiently. A linked list is used to keep track of a users
+              answer.  If they answer correctly, the question moves further down the list and if they 
+              answer incorrectly, they will see the question again right away.  The bulk of the app was 
+              built with a partner over the course of a week using React/Redux for the front ent and Node.js
+              for the server.  Click image to see the live version. <br>
+              <span>
+                usernae: dev<br>
+                password: password88
+              </span>
+            </p>
+          </div>
+        </section>
+        <section class='project'>
+          <h4 class='smaller-font'>Tweet Analyzer Built with Python coming soon...</h4>
+        </section>
+      </div>
+    </div> 
+  </main>
+  <footer>Cover Photo by Toni Cuenca from Pexels</footer>
+</body>
+</html>
