@@ -20,7 +20,7 @@ body {
 /* Styles for the header, nave and hero */
 nav {
   position: fixed;
-  padding: 5px;
+  padding: 8px;
   top: 0;
   left: 0;
   right: 0;
@@ -31,7 +31,12 @@ nav {
 }
 
 .nav-link {
-  font-size: 15px;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+color: rgb(73, 11, 73);
+text-shadow: rgb(255, 233, 219) 1px 1px 1px;
 }
  
 span {
@@ -112,10 +117,11 @@ header {
 }
 
 /* Styles for the project section */
+
 main {
   margin: 0;
   font-family: 'Nanum+Gothic', sans-serif;
-  
+  /* display: inline-grid; */
 }
 
 p {
@@ -126,10 +132,9 @@ p {
   padding: 10px;
   color: rgb(255, 233, 219);
   font-size: 15px;
+  background-color: rgb(73, 11, 73);
 }
- p {
-   background-color: rgb(73, 11, 73);
- }
+ 
 
 h3 {
   margin: 0 0 25px 0;
@@ -157,6 +162,12 @@ footer {
   font-family: 'Kalam', cursive;;
   font-size: 1em;
   color:  rgb(21, 117, 104);
+}
+
+.button:hover {
+  background-color: rgb(73, 11, 73);
+  border: 4px solid rgb(236, 122, 51);
+  border-radius: 10px;
 }
 
 

@@ -1,0 +1,14 @@
+
+.email {
+    text-decoration: none;
+    color: rgb(255, 233, 219);
+    font-size: 30px;
+}
+
+.email:hover {
+    color: rgba(204, 88, 16);
+}
+
+
+
+

@@ -1,8 +1,54 @@
 img {
     border: 1px solid black;
     border-radius: 3%;
+    justify-self: center;
+    margin-top: 75px;
 }
 
 .about-container {
     display: grid;
+    justify-content: center;
 }
+
+.button {
+    /* positioning and sizing */
+    display: block;
+    width: 200px;
+  
+    /* border */
+    border: 3px solid rgb(73, 11, 73);
+    border-radius: 20px;
+  
+    /* padding and margins */
+    padding: 0.5em;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+  
+    /* text-styles */
+    font-size: 1.2em;
+    color: rgb(255, 233, 219);
+    text-decoration: none;
+    background-color: rgba(204, 88, 16);
+    text-shadow: none;
+  
+  }
+
+ #about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),  url('./hero-image-fronds.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  /* background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* background-attachment: fixed; */
+}
+
+ /* #intro{
+    text-shadow: none;
+} */
+
+
+
