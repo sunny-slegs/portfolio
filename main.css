@@ -170,6 +170,15 @@ footer {
   border-radius: 10px;
 }
 
+ .project-link {
+  text-decoration: none;
+  color: rgb(220, 255, 219);
+  font-size: 20px;
+  padding: 20px;
+}
+ .project-links {
+   margin-bottom: 20px;
+ }
 
 /* Styles for larger screens */
  @media only screen and (min-width: 650px) {
