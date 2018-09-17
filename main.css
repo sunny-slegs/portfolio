@@ -99,7 +99,7 @@ header {
 
   /* border */
   border: 3px solid rgb(73, 11, 73);
-  border-radius: 20px;
+  border-radius: 10px;
 
   /* padding and margins */
   padding: 0.5em;
@@ -108,7 +108,7 @@ header {
   margin-left: auto;
 
   /* text-styles */
-  font-size: 1.2em;
+  font-size: 20px;
   color: rgb(255, 233, 219);
   text-decoration: none;
   background-color: rgba(204, 88, 16);
@@ -200,9 +200,7 @@ footer {
     font-size: 50px;
   } 
 
-  .hero .button {
-    font-size: 20px;
-  }
+
 
  }
   
