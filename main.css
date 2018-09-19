@@ -124,6 +124,13 @@ main {
   /* display: inline-grid; */
 }
 
+.project-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),  url('./blue.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 p {
   border: 4px solid rgb(236, 122, 51);
   border-radius: 10px;
@@ -160,7 +167,7 @@ h4 {
 
 footer {
   font-family: 'Kalam', cursive;;
-  font-size: 1em;
+  font-size: 2em;
   color:  rgb(21, 117, 104);
 }
 
@@ -180,6 +187,27 @@ footer {
    margin-bottom: 20px;
  }
 
+ img {
+  /* width: 50px; */
+  background-color:  rgb(255, 233, 219);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3%;
+  /* display: inline-block; */
+}
+
+.connect img  {
+  width: 50px;
+}
+
+.about-contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),  url('./green-leaves-palm.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+}
+
 /* Styles for larger screens */
  @media only screen and (min-width: 650px) {
 
@@ -191,7 +219,7 @@ footer {
     font-size: 30px;
   }
 
-  img {
+  .project-screenshot img  {
     width: 500px;
   }
 
