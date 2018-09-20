@@ -6,7 +6,7 @@ orange rgba(204, 88, 16) */
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
   font-size: 10px;
   line-height: 1.5 ;
@@ -20,6 +20,8 @@ body {
 /* Styles for the header, nave and hero */
 nav {
   position: fixed;
+  width: 100vw;
+  margin: 0 auto;
   padding: 8px;
   top: 0;
   left: 0;
@@ -27,11 +29,7 @@ nav {
   z-index: 10;
   background-color: rgba(204, 88, 16, .9);
   color: rgb(255, 233, 219);
-  font-family: 'Alegreya Sans', sans-serif;
-}
-
-.nav-link {
-  font-size: 20px;
+  font-family: 'Noto Serif KR', sans-serif;
 }
 
 .nav-link:hover {
@@ -39,21 +37,16 @@ color: rgb(73, 11, 73);
 text-shadow: rgb(255, 233, 219) 1px 1px 1px;
 }
  
-span {
-  font-weight: 900;
-}
-
 nav a { 
-  float: right;
+  font-size: 18px;
+  /* float: right; */
+  justify-content: center;
   padding: 5px; 
   text-decoration: none;
   color: rgb(255, 233, 219);
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Noto Serif KR', sans-serif;
 }
 
-.right-most-nav-link {
-  margin-right: 3px;
-}
 
 header {
   margin: 0;
@@ -78,17 +71,20 @@ header {
   /* text styles */
   text-align: center;
   color: rgb(255, 233, 219);
-  text-shadow: rgb(4, 31, 6) 5px 5px 5px;
+  text-shadow: rgb(4, 31, 6) 4px 4px 4px;
 }
 
 .hero h1 {
   font-size: 60px;
-  font-family: 'Kaushan Script', cursive;
+  font-weight: 900;
+  font-family: 'Poiret One', sans-serif;
+  margin-top: 125px;
   margin-bottom: 0;
 }
 
 .hero h2 {
-  font-family: 'Kalam', cursive;;
+  font-family: 'Poiret One', sans-serif;
+  font-weight: 900;
   font-size: 45px;
 }
 
@@ -103,7 +99,8 @@ header {
 
   /* padding and margins */
   padding: 0.5em;
-  margin-top: 40px;
+  margin-bottom: 150px;
+  margin-top: 70px;
   margin-right: auto;
   margin-left: auto;
 
@@ -114,13 +111,13 @@ header {
   background-color: rgba(204, 88, 16);
   text-shadow: none;
 
+  
+  /* Styles for the project section */
 }
-
-/* Styles for the project section */
 
 main {
   margin: 0;
-  font-family: 'Nanum+Gothic', sans-serif;
+  font-family: 'Noto Serif KR', sans-serif;
   /* display: inline-grid; */
 }
 
@@ -138,16 +135,18 @@ p {
   margin: 20px 20px;
   padding: 10px;
   color: rgb(255, 233, 219);
-  font-size: 15px;
-  background-color: rgb(73, 11, 73);
+  font-size: 20px;
+  background-color: rgba(73, 11, 73, 0.767);
+  text-align: justify;
 }
  
 
 h3 {
+  font-family: 'Poiret One', sans-serif;
+  font-weight: 900;
   margin: 0 0 25px 0;
   background-color: rgb(73, 11, 73);
   padding: 10px;;
-  font-family: 'Kalam', cursive;;
   font-size: 35px;
   color: rgb(255, 233, 219);
 }
@@ -156,17 +155,15 @@ h4 {
   background-color: rgb(204, 88, 16) ;
   margin: 0 0 25px 0;
   padding: 10px;;
-  font-family: 'Kalam', cursive;;
-  font-size: 20px;
+  font-family: 'Poiret One', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
   color: rgb(220, 255, 219);
 }
 
-.smaller-font {
-  font-size: 18px;
-}
-
 footer {
-  font-family: 'Kalam', cursive;;
+  font-family: 'Poiret One', sans-serif;
+  font-weight: 900;
   font-size: 2em;
   color:  rgb(21, 117, 104);
 }
@@ -180,24 +177,36 @@ footer {
  .project-link {
   text-decoration: none;
   color: rgb(220, 255, 219);
-  font-size: 20px;
-  padding: 20px;
+  font-size: 18px;
+  padding: 10px;
 }
  .project-links {
    margin-bottom: 20px;
  }
 
  img {
-  /* width: 50px; */
+  /* width: 70px; */
   background-color:  rgb(255, 233, 219);
-  padding: 10px;
+  padding: 5px;
   margin: 10px;
   border-radius: 3%;
   /* display: inline-block; */
 }
 
+/* Styles for the about and contact sections */
+
+h1 {
+  font-family: 'Poiret One', sans-serif;
+  font-weight: 900;
+  color: rgb(255, 233, 219);
+  font-size: 35px;
+  text-shadow: rgb(4, 31, 6) 5px 5px 5px;
+  padding-top: 30px;
+}
+
 .connect img  {
-  width: 50px;
+  width: 70px;
+  margin-bottom: 50px;
 }
 
 .about-contact {
