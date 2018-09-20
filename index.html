@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
   <link rel="stylesheet" type="text/css" href="main.css">
-  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Dosis|Itim|Kalam|Kaushan+Script|Lobster+Two|Markazi+Text|Nanum+Gothic|Noto+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Noto+Serif+KR|Poiret+One|Raleway|Ubuntu|Nanum+Gothic" rel="stylesheet">
   <link rel='icon' type='img/ico' href='favicon.ico'>
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -17,15 +17,15 @@
   <nav role='custom-dropdown'>
       
       <a class='nav-link' href='/SonyaSlegersResume082018.pdf' target='_blank'>Resume</a>
-      <a class='nav-link' href='/contact.html'>Contact Me</a>
-      <a class='nav-link' href='/about.html'>About</a>
-      <a class='nav-link' href='./'>Portfolio</a>
+      <a class='nav-link' href='#contact'>Contact Me</a>
+      <a class='nav-link' href='#about'>About</a>
+      <a class='nav-link' href='#top'>Portfolio</a>
     </nav>
     <header role='banner'>
-      <div class='hero'>
+      <div class='hero' id='top'>
         <div class='hero-text'>
           <h1>Sonya Slegers</h1>
-          <h2>Software Developer based in Austin, TX</h2>
+          <h2>Software Developer in Austin, TX</h2>
           <a href='/contact.html' class='button'>Contact Me</a>
         </div> 
     </header>    
@@ -42,14 +42,10 @@
             </div>
             <div class='project-desc'>
               <p>
-                HearBuds is a platform for users to find new friends to go to concerts with.  The app lists
+                &nbsp&nbsp&nbsp&nbspHearBuds is a platform for users to find new friends to go to concerts with.  The app lists
                 events going on in the users zipcode and alllows users to see who else is going to each show 
                 and chat with them to organize meet up plans.  The app is built with React, Node.js and GraphQL 
                 and uses the Ticketmaster and Mapquest APIs. Click the image to see the live version.<br>
-                <span>
-                  usernae: dev<br>
-                  password: password88
-                </span>
               </p>
             </div>
             <div class='project-links'>
@@ -67,13 +63,9 @@
             </div>
             <div class='project-desc'>
               <p> 
-                Built with React/Redux for the front-end and Node/Express for the 
+                  &nbsp&nbsp&nbsp&nbspBuilt with React/Redux for the front-end and Node/Express for the 
                 back-end. I used a MongoDB database and Mongoose as a modeling tool.
-                Click image to see the live version. <br>
-                 <span>
-                   username: demo<br>
-                   password: password88
-                 </span>
+                Click image to see the live version.
               </p>
             </div>
             <div class='project-links'>
@@ -91,16 +83,12 @@
           </div>
           <div class='project-desc'>
             <p>
-              Cartas Contra Espanol is a Spanish language learning app that uses spaced repetition
+                &nbsp&nbsp&nbsp&nbspCartas Contra Espanol is a Spanish language learning app that uses spaced repetition
               to help the user learn more efficiently. A linked list is used to keep track of a users
               answer.  If they answer correctly, the question moves further down the list and if they 
               answer incorrectly, they will see the question again right away.  The bulk of the app was 
               built with a partner over the course of a week using React/Redux for the front ent and Node.js
               for the server.  Click image to see the live version. <br>
-              <span>
-                usernae: dev<br>
-                password: password88
-              </span>
             </p>
             <div class='project-links'>
                 <a class='project-link' href='https://cartas-contra-espanol.herokuapp.com/' target='_blank'>Live App</a>
@@ -111,7 +99,30 @@
         </section>       
       </div>
     </div> 
+    <div class='about-contact'>      
+      <div class='about-container' id='about'>
+        <h1>Hi There!</h1>
+        <img src='./profile.png' alt='photo of Sonya Slegers' width='300'>
+        <p id='intro'> &nbsp&nbsp&nbsp&nbspI'm a veggie farmer turned tech nerd!  There are surprising similarities between farming
+          and building programs, not the least of which is a constant vigilance for bugs!<br><br>
+
+          &nbsp&nbsp&nbsp&nbspI started a farm with my friend and then had the opportunity to spend a year working in Antarctica. After 
+          that amazing experience I came back home to Austin.  I realized I wanted to have the tools to make a bigger
+          impact on the world around me and learning to build things with computers seemed like just the tool.  I love how 
+          challenging and satisfying it has been so far and look forward to the many years of learning and building ahead.<br><br>
+
+          &nbsp&nbsp&nbsp&nbspWhen I'm not in front of my computer I like to see live music, cook the food from my garden, 
+          hike with my dogs, ride my bicycle around Austin and play by the river.  I think Austin is an amazing place!
+          </p>
+      </div>
+      <div class='connect' id='contact'>
+        <h1>Let's Connect!</h1>
+        <a class='email' href='mailto:sonjay08@gmail.com'><img class='logo' src='/svg/gmail.svg' alt='gmail logo'></a>
+        <a class='linkedin' href='https://www.linkedin.com/in/sonya-slegers/'><img class='logo' src='/svg/linkedin-1.svg' alt='linked in logo'></a>
+        <a class='github' href='https://github.com/sunny-slegs'><img class='logo' src='/svg/github.svg' alt='github logo'></a>
+      </div>
+    </div>
   </main>
-  <footer>Cover Photo by Toni Cuenca from Pexels</footer>
+  <footer>Cover Photo by Toni Cuenca and Daniel Spase from Pexels</footer>
 </body>
 </html>
