@@ -3,6 +3,7 @@
 }
 /* purple rgba(73, 11, 73, .9)
 orange rgba(204, 88, 16) 
+sunset
 brick #814032
 peach #C87746
 navy #122545
@@ -11,6 +12,15 @@ blue #15416E
 beige pink #B2746F
 lavender #53506E
 light purple #7F7087
+
+balloon photo
+#36A0AC robins egg blue
+
+off white #FBEED7
+yellow orange #FFBA5A
+peach #FF7657
+purple denim #665C84
+
 */
 
 body {
@@ -68,7 +78,7 @@ header {
   height: 100vh;
   width: 100vw;
   /* hero image */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),  url('./hero.jpeg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),  url('./balloon1.jpeg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
