@@ -137,10 +137,30 @@ main {
   font-family: 'Noto Serif KR', sans-serif;
 }
 
+/* .project-header {
+  grid-area: project-header;
+} */
+
+.project-screenshot {
+  grid-area: project-screenshot;
+}
+
+.project-desc {
+  grid-area: project-desc;
+}
+
+.project-name {
+  grid-area: project-name;
+}
+
 .project-container {
   display: grid;
-  grid-template-columns: 50px 50% 50% 50px;
-  grid-template-rows: 25% 25% 25% 25%;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "project-name project-name"
+    "project-screenshot project-desc"
 }
 
 .project-section {

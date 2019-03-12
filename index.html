@@ -19,20 +19,22 @@
       <a class='nav-link' href='#contact'>Contact Me</a>
       <a class='nav-link' href='#about'>About</a>
       <a class='nav-link' href='#top'>Portfolio</a>
-    </nav>
-    <header role='banner'>
-      <div class='hero' id='top'>
-        <div class='hero-text'>
-          <h1>Sonya Slegers</h1>
-          <h2>Web Developer in Austin, TX</h2>
-          <a href='#contact' class='button'>Contact Me</a>
-        </div> 
-    </header>    
-<main role='main' class='container'>
+  </nav>
+  <header role='banner'>
+    <div class='hero' id='top'>
+      <div class='hero-text'>
+        <h1>Sonya Slegers</h1>
+        <h2>Web Developer in Austin, TX</h2>
+        <a href='#contact' class='button'>Contact Me</a>
+      </div> 
+  </header>    
+  <main role='main'>
       <div class='projects-section'>
-        <h3  >Projects</h3>
-        <section class='project'>
-          <h4>CSA Box Builder</h4>
+        <h3 class='project-header'>Projects</h3>
+        <section class='project project-container'>
+          <div class='project-name'>
+            <h4>CSA Box Builder</h4>
+          </div>
           <div class='project-screenshot'>
             <a href='https://csa-box-builder.herokuapp.com/' target='_blank' role='button'>
               <img src='./csa-app-screen-shot.png' alt='screen shot of app' width='300'>
@@ -44,37 +46,41 @@
               back-end. I used a MongoDB database and Mongoose as a modeling tool.
               Click image to see the live version.
             </p>
-          </div>
-          <div class='project-links'>
-            <a class='project-link' href='https://csa-box-builder.herokuapp.com/' target='_blank'>Live App</a>
-            <a class='project-link' href='https://github.com/sunny-slegs/csa-box-builder-client' target='_blank'>Client Code</a>
-            <a class='project-link' href='https://github.com/sunny-slegs/csa-box-builder-server' target='_blank'>Server Code</a>
+            <div class='project-links'>
+              <a class='project-link' href='https://csa-box-builder.herokuapp.com/' target='_blank'>Live App</a>
+              <a class='project-link' href='https://github.com/sunny-slegs/csa-box-builder-client' target='_blank'>Client Code</a>
+              <a class='project-link' href='https://github.com/sunny-slegs/csa-box-builder-server' target='_blank'>Server Code</a>
+            </div>
           </div>
         </section>
-        <section class='project'>
+        <section class='project project-container'>
+          <div class='project-name'>  
             <h4 class='smaller-font'>HearBuds</h4>
-            <div class='project-screenshot'>
-              <a href='https://hearbuds-client.firebaseapp.com/' target='_blank' role='button' >
-                <img src='./hearbuds-screen-shot.png' alt='screen shot of app' width='300'>
-              </a>
+          </div>  
+          <div class='project-screenshot'>
+            <a href='https://hearbuds-client.firebaseapp.com/' target='_blank' role='button' >
+              <img src='./hearbuds-screen-shot.png' alt='screen shot of app' width='300'>
+            </a>
              
-            </div>
-            <div class='project-desc'>
-              <p>
-                &nbsp&nbsp&nbsp&nbspHearBuds is a platform for users to find new friends to go to concerts with.  The app lists
-                events going on in the users zipcode and alllows users to see who else is going to each show 
-                and chat with them to organize meet up plans.  The app is built with React, Node.js and GraphQL 
-                and uses the Ticketmaster and Mapquest APIs. Click the image to see the live version.<br>
-              </p>
-            </div>
+          </div>
+          <div class='project-desc'>
+            <p>
+              &nbsp&nbsp&nbsp&nbspHearBuds is a platform for users to find new friends to go to concerts with.  The app lists
+              events going on in the users zipcode and alllows users to see who else is going to each show 
+              and chat with them to organize meet up plans.  The app is built with React, Node.js and GraphQL 
+              and uses the Ticketmaster and Mapquest APIs. Click the image to see the live version.<br>
+            </p>
             <div class='project-links'>
-                <a class='project-link' href='https://hearbuds-client.firebaseapp.com/' target='_blank'>Live App</a>
-                <a class='project-link' href='https://github.com/thinkful-ei21/hearbuds-client' target='_blank'>Client Code</a>
-                <a class='project-link' href='https://github.com/thinkful-ei21/hearbuds-server' target='_blank'>Server Code</a>
+              <a class='project-link' href='https://hearbuds-client.firebaseapp.com/' target='_blank'>Live App</a>
+              <a class='project-link' href='https://github.com/thinkful-ei21/hearbuds-client' target='_blank'>Client Code</a>
+              <a class='project-link' href='https://github.com/thinkful-ei21/hearbuds-server' target='_blank'>Server Code</a>
             </div>
-          </section>
-        <section class='project'>
-          <h4 class='smaller-font'>Cartas Contra Español (Cards Against Spanish)</h4>
+          </div>
+        </section>
+        <section class='project project-container'>
+          <div class='project-name'>
+            <h4 class='smaller-font'>Cartas Contra Español (Cards Against Spanish)</h4>
+          </div>
           <div class='project-screenshot'>
             <a href='https://cartas-contra-espanol.herokuapp.com/' target='_blank' role='button' >
               <img src='./spaced-rep-screen-shot.png' alt='screen shot of app' width='300'>
