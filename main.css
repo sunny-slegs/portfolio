@@ -129,12 +129,18 @@ header {
   text-shadow: none;
 
   
-  /* Styles for the project section */
 }
+/* Styles for the project section */
 
 main {
   margin: 0;
   font-family: 'Noto Serif KR', sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 40px 50px 50% 50% 50px 40px;
+  grid-template-rows: 25% 25% 25% 25%;
 }
 
 .project-section {
