@@ -133,41 +133,18 @@ header {
 /* Styles for the project section */
 
 main {
-  margin: 0;
+  /* margin: 0; */
   font-family: 'Noto Serif KR', sans-serif;
 }
+@media (min-width: 600px) {
+  .project-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-/* .project-header {
-  grid-area: project-header;
-} */
-
-.project-screenshot {
-  grid-area: project-screenshot;
-}
-
-.project-desc {
-  grid-area: project-desc;
-}
-
-.project-name {
-  grid-area: project-name;
-}
-
-.project-container {
-  display: grid;
-  align-items: center;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: 
-    "project-name project-name"
-    "project-screenshot project-desc"
-}
-
-.project-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),  url('./blue.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  .project-header {
+    grid-column: span 2;
+  }
 }
 
 p {
