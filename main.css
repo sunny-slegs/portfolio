@@ -16,8 +16,8 @@ nav {
   position: fixed;
   width: 100vw;
   margin: 0 auto;
-  padding: 8px;
-  top: 0;
+  padding: 15px;
+  top: 10px;
   left: 0;
   right: 0;
   z-index: 10;
@@ -38,6 +38,14 @@ nav a {
    nav a {
   float: right;
   margin-right: 10px;
+}
+.hero h1 {
+  font-size: 60px;
+  font-weight: 900;
+  position: fixed;
+  top: -50px;
+  margin-left: 10px;
+}
 }
 /* Hero */
 
@@ -64,10 +72,16 @@ header {
   text-shadow: rgb(4, 31, 6) 4px 4px 4px;
 }
 
-.hero h1 {
-  font-size: 60px;
-  font-weight: 900;
-  margin-bottom: 0;
+.hero h1.responsive-logo {
+  font-size: 50px;
+  font-weight: 700;
+  position: fixed;
+  top: -45px;
+  margin-left: 5px;
+}
+
+.hero h1.logo {
+  display: none;
 }
 
 .hero .button {
@@ -92,5 +106,3 @@ header {
   text-decoration: none;
   background-color: rgba(204, 88, 16);
   text-shadow: none;
-
-  

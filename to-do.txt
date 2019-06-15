@@ -1,0 +1,6 @@
+To Do:
+
+- add responsibe hamburger menu
+- change contact me styles
+- change about me info and put in front of projects
+- change project styles
