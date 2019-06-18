@@ -27,14 +27,36 @@ nav {
   text-shadow: rgb(255, 233, 219) 1px 1px 1px;
 }
 
-nav a {
+nav .desktop-nav-menu{
   font-size: 18px;
   justify-content: center;
   padding: 5px;
   text-decoration: none;
+  display: none;
+} 
+
+.mobile-nav-menu .top-bar, .mobile-nav-menu .middle-bar, .mobile-nav-menu .bottom-bar {
+  width: 22px;
+  height: 2px;
+  background-color: #000;
+  margin: 5px;
+  /* -webkit-transition: -webkit-transform .1s 0s ease-in-out,top .1s .1s ease-in-out;
+  -moz-transition: -moz-transform .1s 0s ease-in-out,top .1s .1s ease-in-out;
+  -ms-transition: -ms-transform .1s 0s ease-in-out,top .1s .1s ease-in-out;
+  -o-transition: -o-transform .1s 0s ease-in-out,top .1s .1s ease-in-out;
+  transition: transform .1s 0s ease-in-out,top .1s .1s ease-in-out;
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;*/
+} 
+
+.logo-wrapper .logo {
+  display: none;
 }
 
-@media only screen and (min-width: 650px) {
+/* @media only screen and (min-width: 650px) {
    nav a {
   float: right;
   margin-right: 10px;
@@ -46,7 +68,7 @@ nav a {
   top: -50px;
   margin-left: 10px;
 }
-}
+} */
 /* Hero */
 
 header {
